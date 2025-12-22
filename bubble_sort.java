@@ -1,5 +1,5 @@
 import java.io.*;
-class Solution {
+class Solution { 
     static void bubbleSort(int[] a) {
         for (int i = 0; i < a.length - 1; i++)
             for (int j = 0; j < a.length - i - 1; j++)
