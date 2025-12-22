@@ -12,9 +12,7 @@ class Solution {
     
     public static void main(String[] args) {
         int[] a = {4, 1, 3, 9, 7};
-
         bubbleSort(a);
-
         for (int x : a)
             System.out.print(x + " ");
     }
