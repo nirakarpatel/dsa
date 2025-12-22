@@ -8,8 +8,8 @@ class Solution {
                     a[j] = a[j + 1];
                     a[j + 1] = t;
                 }
-    }
-
+    } 
+    
     public static void main(String[] args) {
         int[] a = {4, 1, 3, 9, 7};
 
