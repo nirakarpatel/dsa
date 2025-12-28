@@ -8,7 +8,7 @@ class Solution {
         mergeSort(arr, l, m);
         mergeSort(arr, m + 1, r);
 
-        int[] t = new int[r - l + 1]; 
+        int[] t = new int[r - l + 1];
         int i = l, j = m + 1, k = 0;
 
         while (i <= m && j <= r)
